@@ -54,12 +54,13 @@ activo BIT DEFAULT 1 NOT NULL,
 id_empleado INT NOT NULL,
 id_cargo INT NOT NULL,
 id_genero INT NOT NULL,
-id_tipodocumento INT NOT NULL,
-FOREIGN KEY (id_empleado) REFERENCES Empleado(codigo),
-FOREIGN KEY (id_cargo) REFERENCES Cargo(codigo),
-FOREIGN KEY (id_genero) REFERENCES Genero(codigo),
-FOREIGN KEY (id_tipodocumento) REFERENCES TipoDocumento(codigo)
+id_tipodocumento INT NOT NULL
 );
+
+ALTER TABLE Empleado ADD FOREIGN KEY (id_empleado) REFERENCES Empleado(codigo);
+ALTER TABLE Empleado ADD FOREIGN KEY (id_cargo) REFERENCES Cargo(codigo);
+ALTER TABLE Empleado ADD FOREIGN KEY (id_genero) REFERENCES Genero(codigo)
+ALTER TABLE Empleado ADD FOREIGN KEY (id_tipodocumento) REFERENCES TipoDocumento(codigo)
 
 CREATE TABLE Usuario (
 codigo INT PRIMARY KEY NOT NULL,

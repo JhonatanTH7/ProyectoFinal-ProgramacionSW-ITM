@@ -312,6 +312,7 @@ INSERT INTO Usuario (codigo, activo, usuario, contrasenia, id_empleado) VALUES (
 INSERT INTO Cliente (codigo, nombre_cliente, numero_documento, activo, id_tipodocumento, id_tipocliente, id_empleado) VALUES (1, 'Carlos Ramírez', 123456789, 1, 1, 1, 1);
 INSERT INTO Cliente (codigo, nombre_cliente, numero_documento, activo, id_tipodocumento, id_tipocliente, id_empleado) VALUES (2, 'Constructora Ávila S.A.S.', 900123456, 1, 6, 3, 1);
 INSERT INTO Cliente (codigo, nombre_cliente, numero_documento, activo, id_tipodocumento, id_tipocliente, id_empleado) VALUES (3, 'Luisa Fernández', 987654321, 1, 1, 1, 1);
+INSERT INTO Cliente (codigo, nombre_cliente, numero_documento, activo, id_tipodocumento, id_tipocliente, id_empleado) VALUES (4, 'PRUEBA CLIENTE NO ACTIVO', 1245657, 0, 1, 1, 1);
 INSERT INTO Telefono (codigo, numero_telefono, activo, id_tipotelefono, id_cliente) VALUES (1, '3216549870', 1, 1, 1);
 INSERT INTO Telefono (codigo, numero_telefono, activo, id_tipotelefono, id_cliente) VALUES (2, '6013456789', 1, 3, 2);
 INSERT INTO Telefono (codigo, numero_telefono, activo, id_tipotelefono, id_cliente) VALUES (3, '3201234567', 1, 1, 3);

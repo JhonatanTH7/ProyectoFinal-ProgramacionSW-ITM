@@ -1,12 +1,88 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Jhonatan\\Desktop\\Git Repositories\\ProyectoFinal-ProgramacionSW-ITM\\LosTorresFerreterosSAS\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{54DD858F-001F-48C0-ADCE-CE1875DB44F4}|LosTorresFerreterosSAS\\LosTorresFerreterosSAS.csproj|c:\\users\\jhonatan\\desktop\\git repositories\\proyectofinal-programacionsw-itm\\lostorresferreterossas\\lostorresferreterossas\\clases\\clsopeusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54DD858F-001F-48C0-ADCE-CE1875DB44F4}|LosTorresFerreterosSAS\\LosTorresFerreterosSAS.csproj|solutionrelative:lostorresferreterossas\\clases\\clsopeusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54DD858F-001F-48C0-ADCE-CE1875DB44F4}|LosTorresFerreterosSAS\\LosTorresFerreterosSAS.csproj|c:\\users\\jhonatan\\desktop\\git repositories\\proyectofinal-programacionsw-itm\\lostorresferreterossas\\lostorresferreterossas\\clases\\clsopeempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54DD858F-001F-48C0-ADCE-CE1875DB44F4}|LosTorresFerreterosSAS\\LosTorresFerreterosSAS.csproj|solutionrelative:lostorresferreterossas\\clases\\clsopeempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54DD858F-001F-48C0-ADCE-CE1875DB44F4}|LosTorresFerreterosSAS\\LosTorresFerreterosSAS.csproj|c:\\users\\jhonatan\\desktop\\git repositories\\proyectofinal-programacionsw-itm\\lostorresferreterossas\\lostorresferreterossas\\clases\\clsopeprestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54DD858F-001F-48C0-ADCE-CE1875DB44F4}|LosTorresFerreterosSAS\\LosTorresFerreterosSAS.csproj|solutionrelative:lostorresferreterossas\\clases\\clsopeprestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54DD858F-001F-48C0-ADCE-CE1875DB44F4}|LosTorresFerreterosSAS\\LosTorresFerreterosSAS.csproj|c:\\users\\jhonatan\\desktop\\git repositories\\proyectofinal-programacionsw-itm\\lostorresferreterossas\\lostorresferreterossas\\clases\\clsopedetallesprestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54DD858F-001F-48C0-ADCE-CE1875DB44F4}|LosTorresFerreterosSAS\\LosTorresFerreterosSAS.csproj|solutionrelative:lostorresferreterossas\\clases\\clsopedetallesprestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClsOpeDetallesPrestamo.cs",
+              "DocumentMoniker": "C:\\Users\\Jhonatan\\Desktop\\Git Repositories\\ProyectoFinal-ProgramacionSW-ITM\\LosTorresFerreterosSAS\\LosTorresFerreterosSAS\\Clases\\ClsOpeDetallesPrestamo.cs",
+              "RelativeDocumentMoniker": "LosTorresFerreterosSAS\\Clases\\ClsOpeDetallesPrestamo.cs",
+              "ToolTip": "C:\\Users\\Jhonatan\\Desktop\\Git Repositories\\ProyectoFinal-ProgramacionSW-ITM\\LosTorresFerreterosSAS\\LosTorresFerreterosSAS\\Clases\\ClsOpeDetallesPrestamo.cs",
+              "RelativeToolTip": "LosTorresFerreterosSAS\\Clases\\ClsOpeDetallesPrestamo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T07:02:08.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClsOpePrestamo.cs",
+              "DocumentMoniker": "C:\\Users\\Jhonatan\\Desktop\\Git Repositories\\ProyectoFinal-ProgramacionSW-ITM\\LosTorresFerreterosSAS\\LosTorresFerreterosSAS\\Clases\\ClsOpePrestamo.cs",
+              "RelativeDocumentMoniker": "LosTorresFerreterosSAS\\Clases\\ClsOpePrestamo.cs",
+              "ToolTip": "C:\\Users\\Jhonatan\\Desktop\\Git Repositories\\ProyectoFinal-ProgramacionSW-ITM\\LosTorresFerreterosSAS\\LosTorresFerreterosSAS\\Clases\\ClsOpePrestamo.cs",
+              "RelativeToolTip": "LosTorresFerreterosSAS\\Clases\\ClsOpePrestamo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T07:00:30.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClsOpeEmpleado.cs",
+              "DocumentMoniker": "C:\\Users\\Jhonatan\\Desktop\\Git Repositories\\ProyectoFinal-ProgramacionSW-ITM\\LosTorresFerreterosSAS\\LosTorresFerreterosSAS\\Clases\\ClsOpeEmpleado.cs",
+              "RelativeDocumentMoniker": "LosTorresFerreterosSAS\\Clases\\ClsOpeEmpleado.cs",
+              "ToolTip": "C:\\Users\\Jhonatan\\Desktop\\Git Repositories\\ProyectoFinal-ProgramacionSW-ITM\\LosTorresFerreterosSAS\\LosTorresFerreterosSAS\\Clases\\ClsOpeEmpleado.cs",
+              "RelativeToolTip": "LosTorresFerreterosSAS\\Clases\\ClsOpeEmpleado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T06:59:46.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClsOpeUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\Jhonatan\\Desktop\\Git Repositories\\ProyectoFinal-ProgramacionSW-ITM\\LosTorresFerreterosSAS\\LosTorresFerreterosSAS\\Clases\\ClsOpeUsuario.cs",
+              "RelativeDocumentMoniker": "LosTorresFerreterosSAS\\Clases\\ClsOpeUsuario.cs",
+              "ToolTip": "C:\\Users\\Jhonatan\\Desktop\\Git Repositories\\ProyectoFinal-ProgramacionSW-ITM\\LosTorresFerreterosSAS\\LosTorresFerreterosSAS\\Clases\\ClsOpeUsuario.cs",
+              "RelativeToolTip": "LosTorresFerreterosSAS\\Clases\\ClsOpeUsuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T06:59:09.066Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

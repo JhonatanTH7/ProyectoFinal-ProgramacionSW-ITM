@@ -16,5 +16,11 @@ namespace LosTorresFerreterosSAS.Clases
             return oEFR.Departamentoes.OrderBy(x => x.nombre_departamento).ToList();
         }
 
+        public Departamento ConsultarDepartamento(int idCiudad)
+        {
+            var ciudad = oEFR.Ciudads.FirstOrDefault(c => c.codigo == idCiudad);
+            return oEFR.Departamentoes.FirstOrDefault(x => x.codigo == ciudad.id_departamento);
+        }
+
     }
 }

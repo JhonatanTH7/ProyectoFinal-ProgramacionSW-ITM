@@ -10,7 +10,7 @@ using System.Web.Http.Cors;
 
 namespace LosTorresFerreterosSAS.Controllers
 {
-    [EnableCors(origins: "http://localhost:XXXXX", headers: "*", methods: "*")]
+    [EnableCors(origins: "http://localhost:55161", headers: "*", methods: "*")]
     public class TipoDocumentoController : ApiController
     {
        

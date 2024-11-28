@@ -14,15 +14,14 @@ namespace LosTorresFerreterosSAS.Clases
 
         public Usuario tblUsuario { get; set; }
 
-        public IQueryable ValidarCredenciales()
+        public int ValidarCredenciales()
         {
-            return from USU in oEFR.Set<Usuario>()
-                   where USU.activo == true && USU.usuario1 == tblUsuario.usuario1 && USU.contrasenia == tblUsuario.contrasenia
-                   select new
-                   {
-                       IdUsuario = USU.codigo,
-                       NombreUsuario = USU.usuario1
-                   };
+            var resultado = oEFR.Usuarios.FirstOrDefault(u => u.usuario1==tblUsuario.usuario1 && u.contrasenia==tblUsuario.contrasenia);
+            if (resultado==null)
+            {
+                return 0;
+            }
+            return resultado.id_empleado;
         }
 
         public string Insertar(int documentoEmpleado, [FromBody] Usuario usuario)

@@ -18,14 +18,15 @@ namespace LosTorresFerreterosSAS.Clases
         {
             return from PRES in oEFR.Set<Prestamo>()
                    join CLI in oEFR.Set<Cliente>() on PRES.id_cliente equals CLI.codigo
-                   where CLI.numero_documento == docCliente
+                   join EMPL in oEFR.Set<Empleado>() on PRES.id_empleado equals EMPL.codigo
+                   where CLI.codigo == docCliente
                    select new
                    {
                       CodigoPrestamo = PRES.codigo,
                       FechaPrestamo = PRES.fecha,
                       SubTotalPrestamo = PRES.subtotal,
                       ValorTotalPrestamo = PRES.valor_total,
-                      CodigoEmpleado = PRES.id_empleado
+                      Empleado = EMPL.nombre
                    };
         }
 

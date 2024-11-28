@@ -15,7 +15,7 @@ namespace LosTorresFerreterosSAS.Controllers
     public class UsuarioController : ApiController
     {
 
-        public IQueryable Get([FromBody] Login credenciales)
+        public int Post([FromBody] Login credenciales)
         {
             ClsOpeUsuario objUsuario = new ClsOpeUsuario();
             objUsuario.tblUsuario = new Usuario();

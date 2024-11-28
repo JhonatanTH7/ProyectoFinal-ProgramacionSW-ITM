@@ -56,5 +56,10 @@ namespace LosTorresFerreterosSAS.Clases
                    };
         }
 
+        public List<Producto> ListarProductosPorTipo(int idTipoProducto)
+        {
+            return oEFR.Productoes.Where(p => p.id_tipoproducto== idTipoProducto && p.activo).ToList();
+        }
+
     }
 }

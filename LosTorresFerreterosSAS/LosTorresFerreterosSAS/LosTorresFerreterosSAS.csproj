@@ -192,14 +192,19 @@
     <Compile Include="Clases\ClsOpeProducto.cs" />
     <Compile Include="Clases\ClsOpeTipoDocumento.cs" />
     <Compile Include="Clases\ClsOpeUsuario.cs" />
+    <Compile Include="Clases\Login.cs" />
     <Compile Include="Controllers\CargoController.cs" />
     <Compile Include="Controllers\CiudadController.cs" />
     <Compile Include="Controllers\ClienteController.cs" />
     <Compile Include="Controllers\DepartamentoController.cs" />
+    <Compile Include="Controllers\DetallesPrestamoController.cs" />
+    <Compile Include="Controllers\EmpleadoController.cs" />
     <Compile Include="Controllers\GeneroController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PrestamoController.cs" />
     <Compile Include="Controllers\ProductoController.cs" />
     <Compile Include="Controllers\TipoDocumentoController.cs" />
+    <Compile Include="Controllers\UsuarioController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
